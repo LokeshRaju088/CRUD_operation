@@ -1,7 +1,9 @@
-# Django Candidate Directory
+## Project Title
+"Candidate Directory CRUD Operations in Django"
 
 ## Introduction
-This Django project implements CRUD operations for the Candidate Directory model.
+This Django project implements CRUD operations for a Candidate Directory model. It allows users to perform Create, Read, Update, and Delete operations on candidate information. The project adheres to best practices in Django development.
+
 
 ## Setup Instructions
 1. Clone the repository: `https://github.com/LokeshRaju088/CRUD_operation`
