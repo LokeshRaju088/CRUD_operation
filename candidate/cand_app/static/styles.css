@@ -1,0 +1,63 @@
+/* styles.css */
+body {
+    background-color: #51bbbf;
+    font-family: 'Arial', sans-serif;
+}
+
+h2 {
+    color: #a26d6d;
+    text-decoration: underline;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Additional Styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #a94442;
+    background-color: #f2dede;
+}
+.btn-home {
+    background-color: #1066b3; /* Light Blue color for the button */
+    color: #fff; /* Text color */
+    padding: 10px 15px; /* Adjust padding as needed */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    text-decoration: none; /* Remove underlining for anchor tag */
+    font-weight: bold; /* Set font weight as needed */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+.btn-home:hover {
+    background-color: #5F9EA0; /* Change background color on hover */
+}
+
+

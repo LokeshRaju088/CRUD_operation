@@ -1,0 +1,57 @@
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candidate Detail</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        .container {
+            max-width: 600px;
+            margin: auto;
+        }
+
+        .card {
+            margin-top: 20px;
+            border: 4px solid #000;
+        }
+        .card-body {
+            padding: 20px;
+            background-color: #cfd8e3;
+        }
+    </style>
+</head>
+<body style="background-color:#85d0a9;">
+
+    <div class="container">
+        <h1><center><u>Candidate Detail</u></h1><br><br>
+
+        <div class="card">
+            <div class="card-body">
+                <dl align="center">
+                    <dt>ID:</dt>
+                    <dd>{{ candidate.id }}</dd>
+
+                    <dt>First Name:</dt>
+                    <dd>{{ candidate.first_name }}</dd>
+
+                    <dt>Last Name:</dt>
+                    <dd>{{ candidate.last_name }}</dd>
+
+                    <dt>Email:</dt>
+                    <dd>{{ candidate.email }}</dd>
+
+                    <dt>DOB:</dt>
+                    <dd>{{candidate.dob}}</dd>
+
+                    <!-- Add other fields as needed -->
+
+                </dl>
+            </div>
+        </div><br>
+
+        <a href="{% url 'candidate_list' %}" class="btn btn-secondary" style="background-color:#164975; color:#f8f9fa;"><center>Back to List</a>
+    </div>
+
+</body>
+</html>
